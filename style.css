@@ -1,0 +1,46 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ 
+.navbox{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    height: 45px ;
+    width: 100%;
+    justify-content: space-between;
+}
+.logobox{
+    /* border: 2px solid yellow; */
+    width: fit-content;
+    display: flex;
+}
+.logoboximg{
+    height: 100%;
+    width: 45px;
+    border: 2px solid blue;
+}
+.logoname{
+    border: 2px solid black;
+    width: 100px ;
+
+}
+.navlist{
+    display: flex;
+    margin: 10px;
+    border: 2px solid black;
+    
+}
+.navlist ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: 10px;
+}
+.navlist ul li{
+    margin-inline: 10px;
+}
